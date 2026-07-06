@@ -5,7 +5,7 @@ The player spins a reward wheel, collects prizes, avoids bombs, and can choose t
 
 This project was developed as a game developer demo using the provided UI assets.
 
----
+
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ The player progresses through zones by spinning the wheel. Each spin can give a 
 
 The game includes normal zones, safe zones, and super zones.
 
----
+
 
 ## Gameplay Rules
 
@@ -30,7 +30,7 @@ The game includes normal zones, safe zones, and super zones.
 - Safe and super zones do not contain bombs.
 - The player can leave and collect rewards only when allowed by the zone rules.
 
----
+
 
 ## Implemented Features
 
@@ -91,7 +91,7 @@ The project supports audio clips for (although not added currently but can be us
 
 Audio clips can be assigned from the Unity Inspector on the `WheelGameController`.
 
----
+
 
 ## Controls
 
@@ -105,7 +105,7 @@ This is a touch/click based UI game.
 | Restart | Restarts the game from Zone 1 |
 | Collect | Plays the collection effect and restarts the run |
 
----
+
 
 ## Main Scripts
 
@@ -122,7 +122,7 @@ Includes:
 
 This script defines reward data, bomb data, wheel configuration, and zone type logic.
 
----
+
 
 ### `WheelGameController.cs`
 
@@ -140,7 +140,7 @@ Responsibilities:
 - Plays audio effects
 - Updates the current zone
 
----
+
 
 ### `GameUI.cs`
 
@@ -156,7 +156,7 @@ Responsibilities:
 - Plays collect animations
 - Connects UI references by object names
 
----
+
 
 ### `WheelSlotView.cs`
 
@@ -168,7 +168,7 @@ Responsibilities:
 - Shows reward amount text
 - Clears unused wheel slots
 
----
+
 
 ### `SingleRewardRevealView.cs`
 
@@ -181,7 +181,7 @@ Responsibilities:
 - Shows the reward amount
 - Plays scale and flash animation
 
----
+
 
 ### `WinRewardItemView.cs`
 
@@ -194,11 +194,11 @@ Responsibilities:
 - Shows reward amount
 - Supports collect animation using CanvasGroup
 
----
+
 
 ## Project Structure
 
-
+```text
 Assets
 ├── Audio
 │   └── Optional audio clips
@@ -214,3 +214,4 @@ Assets
 │   ├── SingleRewardRevealView.cs
 │   └── WinRewardItemView.cs
 └── TextMesh Pro
+
