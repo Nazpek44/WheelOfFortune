@@ -1,0 +1,12 @@
+# ninja log v5
+89	1127	8049820249994694	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	92aaf5e3ca7686d9
+1134	1993	8049820258139701	C:/Users/Naz/WheelOfFortune/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/45461a36/obj/arm64-v8a/libswappywrapper.so	5da34e6aff4f4542
+48	4632	8049820285722706	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3bac5e3b92437be2
+18	4766	8049820286729548	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	76e0d08270785cad
+27	4850	8049820287758732	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	3373711cd78d0a26
+61	4992	8049820289242091	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	30ed148dddbb1f5b
+1	5112	8049820290564530	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1e015499cfca2abd
+74	5250	8049820291935553	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a3ff0096e56d40b5
+36	5673	8049820296280715	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7074b6c788304e43
+11	5850	8049820297978503	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8d7f1908a3120250
+5850	6022	8049820299714781	C:/Users/Naz/WheelOfFortune/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/45461a36/obj/arm64-v8a/libgame.so	ebe8e6f5e666884a
