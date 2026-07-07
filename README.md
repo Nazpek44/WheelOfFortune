@@ -21,7 +21,7 @@ The game includes normal zones, safe zones, and super zones.
 
 | Bronze Wheel Reward | Silver Wheel Reward |
 |---|---|
-| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_reward_appearance.jpg) |
+| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_rewardappearance.jpg) |
 
 | Bomb / Revive Popup | Reward Collection Popup |
 |---|---|
