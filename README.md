@@ -5,7 +5,7 @@ The player spins a reward wheel, collects prizes, avoids bombs, and can choose t
 
 This project was developed as a game developer demo using the provided UI assets.
 
----
+
 
 ## Project Overview
 
@@ -15,7 +15,25 @@ The player progresses through zones by spinning the wheel. Each spin can give a 
 
 The game includes normal zones, safe zones, and super zones.
 
----
+## Screenshots and Gameplay Media
+
+### Screenshots
+
+| Bronze Wheel Reward | Silver Wheel Reward |
+|---|---|
+| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_reward_appearance.jpg) |
+
+| Bomb / Revive Popup | Reward Collection Popup |
+|---|---|
+| ![Bomb revive restart popup](Media/Screenshots/bomb_revive_restart.jpg) | ![Leave reward collection](Media/Screenshots/leave_reward_collection.jpg) |
+
+### Gameplay Videos
+
+- [Bomb appearing and revive video](Media/Videos/bomb_appearing_revive_video.mp4)
+- [Reward collection video](Media/Videos/reward_collection_video.mp4)
+- [Full 30-level gameplay video](Media/Videos/full_fortune_wheel_30levels.mp4)
+
+
 
 ## Gameplay Rules
 
@@ -30,7 +48,7 @@ The game includes normal zones, safe zones, and super zones.
 - Safe and super zones do not contain bombs.
 - The player can leave and collect rewards only when allowed by the zone rules.
 
----
+
 
 ## Implemented Features
 
@@ -91,7 +109,7 @@ The project supports audio clips for (although not added currently but can be us
 
 Audio clips can be assigned from the Unity Inspector on the `WheelGameController`.
 
----
+
 
 ## Controls
 
@@ -105,7 +123,7 @@ This is a touch/click based UI game.
 | Restart | Restarts the game from Zone 1 |
 | Collect | Plays the collection effect and restarts the run |
 
----
+
 
 ## Main Scripts
 
@@ -122,7 +140,7 @@ Includes:
 
 This script defines reward data, bomb data, wheel configuration, and zone type logic.
 
----
+
 
 ### `WheelGameController.cs`
 
@@ -140,7 +158,7 @@ Responsibilities:
 - Plays audio effects
 - Updates the current zone
 
----
+
 
 ### `GameUI.cs`
 
@@ -156,7 +174,7 @@ Responsibilities:
 - Plays collect animations
 - Connects UI references by object names
 
----
+
 
 ### `WheelSlotView.cs`
 
@@ -168,7 +186,7 @@ Responsibilities:
 - Shows reward amount text
 - Clears unused wheel slots
 
----
+
 
 ### `SingleRewardRevealView.cs`
 
@@ -181,7 +199,7 @@ Responsibilities:
 - Shows the reward amount
 - Plays scale and flash animation
 
----
+
 
 ### `WinRewardItemView.cs`
 
@@ -194,11 +212,11 @@ Responsibilities:
 - Shows reward amount
 - Supports collect animation using CanvasGroup
 
----
+
 
 ## Project Structure
 
-
+```text
 Assets
 ├── Audio
 │   └── Optional audio clips
@@ -214,3 +232,4 @@ Assets
 │   ├── SingleRewardRevealView.cs
 │   └── WinRewardItemView.cs
 └── TextMesh Pro
+
