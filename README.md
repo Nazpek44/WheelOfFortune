@@ -15,6 +15,24 @@ The player progresses through zones by spinning the wheel. Each spin can give a 
 
 The game includes normal zones, safe zones, and super zones.
 
+## Screenshots and Gameplay Media
+
+### Screenshots
+
+| Bronze Wheel Reward | Silver Wheel Reward |
+|---|---|
+| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_reward_appearance.jpg) |
+
+| Bomb / Revive Popup | Reward Collection Popup |
+|---|---|
+| ![Bomb revive restart popup](Media/Screenshots/bomb_revive_restart.jpg) | ![Leave reward collection](Media/Screenshots/leave_reward_collection.jpg) |
+
+### Gameplay Videos
+
+- [Bomb appearing and revive video](Media/Videos/bomb_appearing_revive_video.mp4)
+- [Reward collection video](Media/Videos/reward_collection_video.mp4)
+- [Full 30-level gameplay video](Media/Videos/full_fortune_wheel_30levels.mp4)
+
 
 
 ## Gameplay Rules
