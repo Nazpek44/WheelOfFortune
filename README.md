@@ -61,7 +61,7 @@ The revised version also includes:
 ### Gameplay Videos
 
 - [Full 30-level gameplay video (part 1)](Media/Videos/full_fortune_wheel_30levels_part1.mp4)
-- [Full 30-level gameplay video (part 1)](Media/Videos/full_fortune_wheel_30levels_part2.mp4)
+- [Full 30-level gameplay video (part 2)](Media/Videos/full_fortune_wheel_30levels_part2.mp4)
 
 
 ---
