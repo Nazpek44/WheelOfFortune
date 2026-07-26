@@ -21,7 +21,7 @@ The game includes normal zones, safe zones, and super zones.
 
 | Bronze Wheel Reward | Silver Wheel Reward |
 |---|---|
-| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_reward_appearance.jpg) |
+| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_rewardappearance.jpg) |
 
 | Bomb / Revive Popup | Reward Collection Popup |
 |---|---|
@@ -33,7 +33,13 @@ The game includes normal zones, safe zones, and super zones.
 - [Reward collection video](Media/Videos/reward_collection_video.mp4)
 - [Full 30-level gameplay video](Media/Videos/full_fortune_wheel_30levels.mp4)
 
+## Aspect Ratio Screenshots
 
+The UI was prepared to support multiple aspect ratios as required by the demo brief.
+
+| 20:9 | 16:9 | 4:3 |
+|---|---|---|
+| ![20:9 aspect ratio screenshot](Media/Screenshots/game_aspect_20_9.png) | ![16:9 aspect ratio screenshot](Media/Screenshots/game_aspect_16_9.png) | ![4:3 aspect ratio screenshot](Media/Screenshots/game_aspect_4_3.png) |
 
 ## Gameplay Rules
 
