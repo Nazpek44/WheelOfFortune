@@ -5,7 +5,25 @@ The player spins a reward wheel, collects prizes, avoids bombs, and can choose t
 
 This project was developed as a game developer demo using the provided UI assets.
 
+---
 
+## Revision Summary
+
+This version includes a revised implementation based on review feedback.
+
+| Feedback | Revision |
+|---|---|
+| Top bar visuals/animations were not close enough to the sample game | Added a redesigned progress/zone indicator, safe/super zone color feedback, and smoother zone info animation |
+| Inventory system visual was not close enough to the sample game | Added a left-side grouped inventory panel with scrollable content |
+| Spin animation had flicker | Investigated multiple spin approaches and optimized the current wheel rotation setup, asset settings, hierarchy, and spin timing |
+| Code quality was not SOLID enough | Refactored the project into separated responsibilities: core, data, UI, animation, audio, events, and utilities |
+| Event manager was missing | Added `GameEventBus` and gameplay event definitions |
+| Namespace was missing | Added namespaces to revised scripts |
+| Duplicate helper methods existed | Added shared `ComponentFinder` utility |
+| Constants were scattered | Added `GameConstants` and `RewardTextFormatter` |
+| State logic used multiple bools | Added a `GameState` enum |
+
+---
 
 ## Project Overview
 
@@ -15,13 +33,26 @@ The player progresses through zones by spinning the wheel. Each spin can give a 
 
 The game includes normal zones, safe zones, and super zones.
 
+The revised version also includes:
+
+- Start screen before gameplay
+- Left-side grouped inventory
+- Top progress/zone indicator
+- Safe and super zone visual feedback
+- Grouped win reward popup
+- Event bus structure
+- Utility classes
+- Namespace-based script organization
+
+---
+
 ## Screenshots and Gameplay Media
 
 ### Screenshots
 
-| Bronze Wheel Reward | Silver Wheel Reward |
-|---|---|
-| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_rewardappearance.jpg) |
+| Bronze Wheel Reward | Silver Wheel Reward | Start Screen |
+|---|---|---|
+| ![Bronze wheel reward appearance](Media/Screenshots/bronze_wheel_reward_appearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/silver_wheel_rewardappearance.jpg) | ![Silver wheel reward appearance](Media/Screenshots/start_screen.jpg) |
 
 | Bomb / Revive Popup | Reward Collection Popup |
 |---|---|
@@ -29,9 +60,11 @@ The game includes normal zones, safe zones, and super zones.
 
 ### Gameplay Videos
 
-- [Bomb appearing and revive video](Media/Videos/bomb_appearing_revive_video.mp4)
-- [Reward collection video](Media/Videos/reward_collection_video.mp4)
-- [Full 30-level gameplay video](Media/Videos/full_fortune_wheel_30levels.mp4)
+- [Full 30-level gameplay video (part 1)](Media/Videos/full_fortune_wheel_30levels_part1.mp4)
+- [Full 30-level gameplay video (part 1)](Media/Videos/full_fortune_wheel_30levels_part2.mp4)
+
+
+---
 
 ## Aspect Ratio Screenshots
 
@@ -40,6 +73,8 @@ The UI was prepared to support multiple aspect ratios as required by the demo br
 | 20:9 | 16:9 | 4:3 |
 |---|---|---|
 | ![20:9 aspect ratio screenshot](Media/Screenshots/game_aspect_20_9.png) | ![16:9 aspect ratio screenshot](Media/Screenshots/game_aspect_16_9.png) | ![4:3 aspect ratio screenshot](Media/Screenshots/game_aspect_4_3.png) |
+
+---
 
 ## Gameplay Rules
 
@@ -52,9 +87,10 @@ The UI was prepared to support multiple aspect ratios as required by the demo br
 - Every 5th zone is a safe zone.
 - Every 30th zone is a super zone.
 - Safe and super zones do not contain bombs.
-- The player can leave and collect rewards only when allowed by the zone rules.
+- The player can leave and collect rewards only on safe or super zones.
+- Rewards are grouped by reward category in the inventory and win popup.
 
-
+---
 
 ## Implemented Features
 
@@ -66,56 +102,67 @@ The UI was prepared to support multiple aspect ratios as required by the demo br
 - Zone progression
 - Safe zone logic
 - Super zone logic
-- Leave system
+- Exit system
 - Restart system
 - Revive after bomb system
+- Start screen before gameplay
+- Game state enum for clearer flow control
 
 ### Reward System
 
 - Rewards are editable from the Unity Inspector
 - Each wheel slice can have:
+  - Reward ID
   - Reward name
   - Reward icon
   - Reward amount
   - Bomb state
   - Display label
 - Collected rewards are stored during the run
-- Rewards are shown individually when the player leaves
+- Rewards are grouped by reward category
+- Cash from different wheels is merged into one cash entry
+- Gold from different wheels is merged into one gold entry
+- Final rewards are shown as grouped entries in the win popup
 
 ### UI Features
 
 - Mobile portrait UI layout
 - Responsive Canvas setup
+- Start screen
 - Wheel UI with reward slices
+- Top progress/zone indicator
+- Safe and super zone color feedback
+- Left-side grouped inventory panel
+- Scrollable inventory without visible scrollbar
 - Bomb popup
 - Revive button
 - Restart button
 - Win popup
-- Horizontal reward card display
+- Grouped reward display in win popup
 - Collect button
-- Reward collection animation
 - Single reward reveal animation after each successful spin
-
+- Smooth zone info panel scaling animation
 
 ### Visual Effects
 
-- Reward reveal effect in the center after a successful spin
+- Reward reveal effect after a successful spin
 - Flash effect behind the newly won reward
-- Collect animation for final rewards
+- Smooth safe/super zone info scaling
 - Popup overlay for better focus
+- Wheel spin animation with adjusted timing and cleaned hierarchy
 
 ### Audio Support
 
-The project supports audio clips for (although not added currently but can be used when audio files are uploaded):
+The project supports audio clips for:
 
 - Wheel spinning
 - Reward gained
 - Reward collection
 - Bomb explosion
 
-Audio clips can be assigned from the Unity Inspector on the `WheelGameController`.
+Audio clips can be assigned from the Unity Inspector on the audio service component.
 
-
+---
 
 ## Controls
 
@@ -123,119 +170,25 @@ This is a touch/click based UI game.
 
 | Button | Function |
 |---|---|
+| Start | Opens the gameplay screen |
 | Spin | Spins the wheel |
-| Leave | Leaves the game and opens the final reward popup |
+| Exit | Leaves the game and opens the final reward popup on safe/super zones |
 | Revive | Continues after hitting a bomb without losing rewards |
 | Restart | Restarts the game from Zone 1 |
 | Collect | Plays the collection effect and restarts the run |
 
+---
 
+## Code Architecture
 
-## Main Scripts
-
-### `WheelData.cs`
-
-Contains the main data classes and zone rules.
-
-Includes:
-
-- `ZoneType`
-- `WheelSlice`
-- `WheelConfig`
-- `ZoneRules`
-
-This script defines reward data, bomb data, wheel configuration, and zone type logic.
-
-
-
-### `WheelGameController.cs`
-
-Controls the main gameplay flow.
-
-Responsibilities:
-
-- Starts and restarts the game
-- Handles spin input
-- Selects random wheel result
-- Rotates the wheel
-- Resolves rewards and bombs
-- Handles revive logic
-- Handles leave and collect logic
-- Plays audio effects
-- Updates the current zone
-
-
-
-### `GameUI.cs`
-
-Controls UI references and UI updates.
-
-Responsibilities:
-
-- Updates zone text
-- Updates reward totals
-- Updates wheel visuals
-- Shows and hides popups
-- Builds the final reward card list
-- Plays collect animations
-- Connects UI references by object names
-
-
-
-### `WheelSlotView.cs`
-
-Controls the visual display of a single wheel slice.
-
-Responsibilities:
-
-- Shows reward icon
-- Shows reward amount text
-- Clears unused wheel slots
-
-
-
-### `SingleRewardRevealView.cs`
-
-Controls the reward reveal animation after a successful spin.
-
-Responsibilities:
-
-- Shows the gained reward image
-- Shows the reward name
-- Shows the reward amount
-- Plays scale and flash animation
-
-
-
-### `WinRewardItemView.cs`
-
-Controls each final reward card in the win popup.
-
-Responsibilities:
-
-- Shows reward icon
-- Shows reward name
-- Shows reward amount
-- Supports collect animation using CanvasGroup
-
-
-
-## Project Structure
+The revised version separates gameplay, UI, data, events, utilities, audio, and animation responsibilities into different folders and classes.
 
 ```text
-Assets
+Assets/Scripts
+├── Animation
 ├── Audio
-│   └── Optional audio clips
-├── DemoContent
-│   └── Provided UI assets
-├── Scenes
-│   └── Main game scene
-├── Scripts
-│   ├── GameUI.cs
-│   ├── WheelGameController.cs
-│   ├── WheelData.cs
-│   ├── WheelSlotView.cs
-│   ├── SingleRewardRevealView.cs
-│   └── WinRewardItemView.cs
-└── TextMesh Pro
-
+├── Core
+├── Data
+├── Events
+├── UI
+└── Utilities
