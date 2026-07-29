@@ -697,7 +697,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -290}
+  m_AnchoredPosition: {x: 0, y: -305}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127424200
@@ -712,8 +712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 2018560077}
-  amountText_value: {fileID: 1893116964}
+  _iconImage: {fileID: 2018560077}
+  _amountText: {fileID: 1893116964}
 --- !u!1 &128277493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,17 +1303,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252571003}
-  m_LocalRotation: {x: -0.03593808, y: -0, z: -0, w: 0.999354}
+  m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1244399547}
   m_Father: {fileID: 2012929562}
-  m_LocalEulerAnglesHint: {x: -4.119, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 319}
+  m_AnchoredPosition: {x: 0, y: 305}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252571005
@@ -1328,8 +1328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 1786206524}
-  amountText_value: {fileID: 1734051068}
+  _iconImage: {fileID: 1786206524}
+  _amountText: {fileID: 1734051068}
 --- !u!1 &266460927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,7 +1594,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -189.335}
+  m_AnchoredPosition: {x: 0, y: -285}
   m_SizeDelta: {x: 160, y: 51.331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &278626155
@@ -1899,17 +1899,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353526581}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.70711, w: -0.70711}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1100419416}
   m_Father: {fileID: 2012929562}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -270}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306, y: 18}
+  m_AnchoredPosition: {x: -305, y: -0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &353526583
@@ -1924,8 +1924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 1194435855}
-  amountText_value: {fileID: 1082190890}
+  _iconImage: {fileID: 1194435855}
+  _amountText: {fileID: 1082190890}
 --- !u!1 &359550345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,7 +2137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -250}
+  m_AnchoredPosition: {x: 0, y: -354}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372937945
@@ -2256,8 +2256,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000053406, y: 5.819}
-  m_SizeDelta: {x: 669.402, y: 636.062}
+  m_AnchoredPosition: {x: 6.668, y: -62.526}
+  m_SizeDelta: {x: 682.738, y: 772.753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376784366
 MonoBehaviour:
@@ -2902,15 +2902,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c50b1b7cc2c4847a34c0ee24ae2802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SingleRewardRevealView
-  canvasGroup: {fileID: 561133809}
-  flashImage: {fileID: 1747101380}
-  rewardIconImage: {fileID: 772255069}
-  rewardNameText_value: {fileID: 35303684}
-  rewardAmountText_value: {fileID: 231246388}
-  appearDuration: 0.25
-  stayDuration: 0.65
-  disappearDuration: 0.25
-  flashRotationSpeed: 220
+  _canvasGroup: {fileID: 561133809}
+  _flashImage: {fileID: 1747101380}
+  _rewardIconImage: {fileID: 772255069}
+  _rewardNameText: {fileID: 35303684}
+  _rewardAmountText: {fileID: 231246388}
+  _appearDuration: 0.25
+  _stayDuration: 0.65
+  _disappearDuration: 0.25
+  _flashRotationSpeed: 220
 --- !u!225 &561133809
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3051,7 +3051,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582014988}
-  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38268, w: 0.92388}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3061,7 +3061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: 230}
+  m_AnchoredPosition: {x: 215.66757, y: 215.66757}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &582014990
@@ -3076,8 +3076,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 1010636863}
-  amountText_value: {fileID: 378015352}
+  _iconImage: {fileID: 1010636863}
+  _amountText: {fileID: 378015352}
 --- !u!1 &624498045
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,9 +3324,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68c0436bddeee0442aaf641e7d685a68, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.ProgressBarView
-  stepsContainer: {fileID: 1620777614}
-  stepTexts_value:
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.ProgressBarViewMono
+  _stepsContainer: {fileID: 1620777614}
+  _stepTexts:
   - {fileID: 1663786017}
   - {fileID: 1512219690}
   - {fileID: 916977859}
@@ -3336,23 +3336,23 @@ MonoBehaviour:
   - {fileID: 403580785}
   - {fileID: 1097708147}
   - {fileID: 1050769667}
-  currentMarker: {fileID: 1884695228}
-  currentZoneText_value: {fileID: 0}
-  currentMarkerImages:
+  _currentMarker: {fileID: 1884695228}
+  _currentZoneText: {fileID: 0}
+  _currentMarkerImages:
   - {fileID: 202846835}
   - {fileID: 1228370438}
   - {fileID: 42196927}
   - {fileID: 1634229365}
-  fixedStepWidth: 48
-  fixedStepHeight: 55
-  normalColor: {r: 1, g: 1, b: 1, a: 1}
-  safeColor: {r: 0, g: 1, b: 0, a: 1}
-  superColor: {r: 1, g: 0.75, b: 0, a: 1}
-  currentTextColor: {r: 0, g: 0, b: 0, a: 1}
-  normalMarkerColor: {r: 1, g: 1, b: 1, a: 1}
-  markerMoveDuration: 0.25
-  markerPulseScale: 1.15
-  markerPulseDuration: 0.15
+  _fixedStepWidth: 48
+  _fixedStepHeight: 55
+  _normalColor: {r: 1, g: 1, b: 1, a: 1}
+  _safeColor: {r: 0, g: 1, b: 0, a: 1}
+  _superColor: {r: 1, g: 0.75, b: 0, a: 1}
+  _currentTextColor: {r: 0, g: 0, b: 0, a: 1}
+  _normalMarkerColor: {r: 1, g: 1, b: 1, a: 1}
+  _markerMoveDuration: 0.25
+  _markerPulseScale: 1.15
+  _markerPulseDuration: 0.15
 --- !u!1 &717249562
 GameObject:
   m_ObjectHideFlags: 0
@@ -3506,6 +3506,7 @@ GameObject:
   - component: {fileID: 724244601}
   - component: {fileID: 724244600}
   - component: {fileID: 724244604}
+  - component: {fileID: 724244605}
   m_Layer: 0
   m_Name: systems_game_controller
   m_TagString: Untagged
@@ -3539,12 +3540,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a28cd05aadde9c748a14104184cdb0f6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Audio.AudioService
-  audioSource: {fileID: 0}
-  spinAudioClip: {fileID: 0}
-  rewardAudioClip: {fileID: 0}
-  bombAudioClip: {fileID: 0}
-  collectAudioClip: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Audio.AudioServiceMono
+  _audioSource: {fileID: 0}
+  _spinAudioClip: {fileID: 0}
+  _rewardAudioClip: {fileID: 0}
+  _bombAudioClip: {fileID: 0}
+  _collectAudioClip: {fileID: 0}
 --- !u!114 &724244601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3556,7 +3557,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b42b577d36e08446b3047f0d49ebffc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Animation.CoroutineWheelSpinner
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Animation.CoroutineWheelSpinnerMono
+  _minimumDuration: 0.05
 --- !u!114 &724244602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,8 +3570,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4e5f1aa8e84f6c4187342d122db0d8c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Core.WheelConfigProvider
-  wheelConfigs:
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Core.WheelConfigProviderMono
+  _wheelConfigs:
   - configName: Normal Wheel
     zoneType: 0
     wheelBaseSprite: {fileID: -7416167051008218582, guid: 564e93bbb9036204bb2cbd68121fe89b, type: 3}
@@ -3580,49 +3582,73 @@ MonoBehaviour:
       isBomb: 0
       icon: {fileID: 952800183794916973, guid: 864163a6b9912e7408bc9794addaeb3e, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 1
+      currencyType: 2
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: cash
       rewardName: Cash
       isBomb: 0
       icon: {fileID: 7347395048315886003, guid: 4ccc34fd32bced84ba2586d7025e45fb, type: 3}
       amount: 500
-      labelOverride: x500
+      kind: 1
+      currencyType: 1
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: rifle points
       rewardName: 'Rifle Points '
       isBomb: 0
       icon: {fileID: -1983989049330747494, guid: 448cebc4f9863994092182a8c08d9756, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: bronze chest
       rewardName: Bronze Chest
       isBomb: 0
       icon: {fileID: -8731708261444831326, guid: fafade5ab4ec6b14a9ded2509f2ee4f1, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: bomb
       rewardName: Bomb
       isBomb: 1
       icon: {fileID: -6860072587592751284, guid: 45bde9da916b28c4196bdc091afd82d5, type: 3}
       amount: 0
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 0
       labelOverride: 
     - rewardId: smg points
       rewardName: SMG Points
       isBomb: 0
       icon: {fileID: 4302927716473386306, guid: 30e1db89e30f675458bc3d5ef0f7343d, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: small chest
       rewardName: Small Chest
       isBomb: 0
       icon: {fileID: -4379012504692226635, guid: 4f63e45a010649c469dac7a5692b425a, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: 'pistol points '
       rewardName: Pistol Points
       isBomb: 0
       icon: {fileID: 95983631781727552, guid: 0911be29001e5024c85128c55735accc, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
   - configName: Safe Wheel
     zoneType: 1
     wheelBaseSprite: {fileID: -4250264824657568362, guid: c65c8bc1f7eef914eb5fd73b2d3ef739, type: 3}
@@ -3633,49 +3659,73 @@ MonoBehaviour:
       isBomb: 0
       icon: {fileID: 952800183794916973, guid: 864163a6b9912e7408bc9794addaeb3e, type: 3}
       amount: 2
-      labelOverride: x2
+      kind: 1
+      currencyType: 2
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: 'cash '
       rewardName: 'Cash '
       isBomb: 0
       icon: {fileID: 7347395048315886003, guid: 4ccc34fd32bced84ba2586d7025e45fb, type: 3}
       amount: 800
-      labelOverride: x800
+      kind: 1
+      currencyType: 1
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: sniper points
       rewardName: Sniper Points
       isBomb: 0
       icon: {fileID: -2243273156050388040, guid: fad44af8762c03a45a9592d7b33258bc, type: 3}
       amount: 2
-      labelOverride: x2
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: silver chest
       rewardName: Silver Chest
       isBomb: 0
       icon: {fileID: -2733076883953118537, guid: cdee267e369174545a5e72982c76031f, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: armor points
       rewardName: Armor Points
       isBomb: 0
       icon: {fileID: -64891307874697501, guid: c6a47823989d4ea418e2b6d5fc570ea0, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: standart chest
       rewardName: Standard Chest
       isBomb: 0
       icon: {fileID: -4654250119808573944, guid: 1c5ffed324d788845b6a9c4a3d123234, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: knife points
       rewardName: Knife Points
       isBomb: 0
       icon: {fileID: 1742066445721694904, guid: 025b444ab4602c84395284909878c240, type: 3}
       amount: 2
-      labelOverride: x2
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: 'gold '
       rewardName: 'Gold '
       isBomb: 0
       icon: {fileID: 952800183794916973, guid: 864163a6b9912e7408bc9794addaeb3e, type: 3}
       amount: 5
-      labelOverride: x5
+      kind: 1
+      currencyType: 2
+      scaleWithZone: 1
+      labelOverride: 
   - configName: Super Wheel
     zoneType: 2
     wheelBaseSprite: {fileID: 5770997025872212153, guid: 41f835f56d9b09846b8980f024b6721b, type: 3}
@@ -3686,49 +3736,73 @@ MonoBehaviour:
       isBomb: 0
       icon: {fileID: 952800183794916973, guid: 864163a6b9912e7408bc9794addaeb3e, type: 3}
       amount: 10
-      labelOverride: x10
+      kind: 1
+      currencyType: 2
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: 'cash '
       rewardName: 'Cash '
       isBomb: 0
       icon: {fileID: 7347395048315886003, guid: 4ccc34fd32bced84ba2586d7025e45fb, type: 3}
       amount: 3000
-      labelOverride: x3000
+      kind: 1
+      currencyType: 1
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: gold chest
       rewardName: Gold Chest
       isBomb: 0
       icon: {fileID: -4875417417886520195, guid: 020b79b1f2cc26c4a82d7038f165b8cf, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: super chest
       rewardName: Super Chest
       isBomb: 0
       icon: {fileID: -5371827261078721444, guid: 48bdaf9538abb69469caa7c5fa1a5414, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: big chest
       rewardName: Big Chest
       isBomb: 0
       icon: {fileID: -4939823803957887640, guid: 7139e811b68beb043a20256b866aff07, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: tier 2 rifle
       rewardName: Tier 2 Rifle
       isBomb: 0
       icon: {fileID: 795073897822961988, guid: af0314cfc55d45a49b6037564c66f370, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: tier 3 sniper
       rewardName: Tier 3 Sniper
       isBomb: 0
       icon: {fileID: -3878008160132674235, guid: c204d32bb1479074ebfa57b9b8e30251, type: 3}
       amount: 1
-      labelOverride: x1
+      kind: 0
+      currencyType: 0
+      scaleWithZone: 1
+      labelOverride: 
     - rewardId: 'cash '
       rewardName: 'Cash '
       isBomb: 0
       icon: {fileID: 7347395048315886003, guid: 4ccc34fd32bced84ba2586d7025e45fb, type: 3}
       amount: 10000
-      labelOverride: 10000
+      kind: 1
+      currencyType: 1
+      scaleWithZone: 1
+      labelOverride: 
 --- !u!114 &724244603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3740,22 +3814,25 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 064f4bdff5b752a4783562b364a03c06, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Core.WheelGameController
-  startScreenView: {fileID: 2010303767}
-  inputView: {fileID: 1344864912}
-  wheelView: {fileID: 1319301812}
-  progressBarView: {fileID: 650083663}
-  inventoryPanelView: {fileID: 1268615074}
-  zoneInfoPanelView: {fileID: 1821398000}
-  singleRewardRevealView: {fileID: 561133808}
-  winPopupView: {fileID: 1043718905}
-  bombPopup: {fileID: 1102615284}
-  wheelConfigProvider: {fileID: 724244602}
-  wheelSpinner: {fileID: 724244601}
-  audioService: {fileID: 724244600}
-  eventLogger: {fileID: 724244604}
-  spinDuration: 4
-  fullRotations: 3
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Core.WheelGameControllerMono
+  _startScreenView: {fileID: 2010303767}
+  _inputView: {fileID: 1344864912}
+  _wheelView: {fileID: 1319301812}
+  _progressBarView: {fileID: 650083663}
+  _inventoryPanelView: {fileID: 1268615074}
+  _zoneInfoPanelView: {fileID: 1821398000}
+  _singleRewardRevealView: {fileID: 561133808}
+  _winPopupView: {fileID: 1043718905}
+  _bombPopupView: {fileID: 770000001}
+  _walletHudView: {fileID: 770000012}
+  _wheelConfigProvider: {fileID: 724244602}
+  _wheelSpinner: {fileID: 724244601}
+  _audioService: {fileID: 724244600}
+  _eventLogger: {fileID: 724244604}
+  _economySettings: {fileID: 11400000, guid: a7d4b21c9e6f4f0a8b3c5d6e7f801234, type: 2}
+  _spinDuration: 4
+  _fullRotations: 3
+  _rewardRevealSeconds: 1.15
 --- !u!114 &724244604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3767,8 +3844,105 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 162d6882723d1f945a438c4231813d39, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Events.GameEventLogger
-  logEvents: 1
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Events.GameEventLoggerMono
+  _logEvents: 1
+--- !u!82 &724244605
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724244597}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &732337929
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +4020,354 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732337929}
   m_CullTransparentMesh: 1
+--- !u!114 &770000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102615284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ed80d626934005b25a9079789dd79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.BombPopupViewMono
+  _root: {fileID: 1102615284}
+  _titleText: {fileID: 717249564}
+  _costText: {fileID: 2030138828}
+  _continueButton: {fileID: 278626155}
+  _continueButtonLabel: {fileID: 1176795226}
+  _giveUpButton: {fileID: 372937945}
+  _affordableColor: {r: 1, g: 1, b: 1, a: 1}
+  _unaffordableColor: {r: 1, g: 0.45, b: 0.4, a: 1}
+--- !u!1 &770000010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770000011}
+  - component: {fileID: 770000012}
+  m_Layer: 5
+  m_Name: ui_panel_wallet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &770000011
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 770000021}
+  - {fileID: 770000031}
+  m_Father: {fileID: 1344864910}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -350, y: -270}
+  m_SizeDelta: {x: 480, y: 130}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &770000012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbf247d4aac4c2b853fb1e7f4eb3638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.WalletHudViewMono
+  _cashText: {fileID: 770000023}
+  _goldText: {fileID: 770000033}
+  _punchScale: 1.18
+  _punchDuration: 0.22
+--- !u!1 &770000020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770000021}
+  - component: {fileID: 770000022}
+  - component: {fileID: 770000023}
+  m_Layer: 5
+  m_Name: ui_text_wallet_cash_value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &770000021
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 770000011}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 32}
+  m_SizeDelta: {x: 460, y: 55}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &770000022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000020}
+  m_CullTransparentMesh: 1
+--- !u!114 &770000023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: CASH  0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 3
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &770000030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770000031}
+  - component: {fileID: 770000032}
+  - component: {fileID: 770000033}
+  m_Layer: 5
+  m_Name: ui_text_wallet_gold_value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &770000031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 770000011}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -28}
+  m_SizeDelta: {x: 460, y: 55}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &770000032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000030}
+  m_CullTransparentMesh: 1
+--- !u!114 &770000033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770000030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: GOLD  50
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 34
+  m_fontSizeBase: 34
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 3
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &770568802
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,7 +4820,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845868713}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.70711, w: 0.70711}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4308,7 +4830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: 13}
+  m_AnchoredPosition: {x: 305, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845868715
@@ -4323,8 +4845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 1751417251}
-  amountText_value: {fileID: 266460929}
+  _iconImage: {fileID: 1751417251}
+  _amountText: {fileID: 266460929}
 --- !u!1 &847451009
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,7 +5204,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879175899}
-  m_LocalRotation: {x: 0, y: 0, z: -0.92387956, w: 0.38268343}
+  m_LocalRotation: {x: 0, y: 0, z: -0.92388, w: 0.38268}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4692,7 +5214,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -135}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: -205.00003}
+  m_AnchoredPosition: {x: 215.66757, y: -215.66757}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879175901
@@ -4707,8 +5229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 847451011}
-  amountText_value: {fileID: 1145487485}
+  _iconImage: {fileID: 847451011}
+  _amountText: {fileID: 1145487485}
 --- !u!1 &916977857
 GameObject:
   m_ObjectHideFlags: 0
@@ -5167,14 +5689,20 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9266a3cc5d558b14e92ec7b0678d372f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.WinPopupView
-  root: {fileID: 1043718903}
-  totalText_value: {fileID: 0}
-  rewardScrollRect: {fileID: 489570993}
-  rewardContent: {fileID: 276637192}
-  rewardContentCanvasGroup: {fileID: 276637195}
-  rewardItemTemplate: {fileID: 1979245846}
-  collectButton: {fileID: 878623657}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.WinPopupViewMono
+  _root: {fileID: 1043718903}
+  _summaryText: {fileID: 0}
+  _rewardScrollRect: {fileID: 489570993}
+  _rewardContent: {fileID: 276637192}
+  _rewardContentCanvasGroup: {fileID: 276637195}
+  _rewardItemTemplate: {fileID: 1979245846}
+  _collectButton: {fileID: 878623657}
+  _collectTarget: {fileID: 770000011}
+  _flightLayer: {fileID: 1043718904}
+  _popDuration: 0.16
+  _stagger: 0.06
+  _flightDuration: 0.45
+  _arcHeight: 140
 --- !u!1 &1050769665
 GameObject:
   m_ObjectHideFlags: 0
@@ -5631,17 +6159,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096700508}
-  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38268, w: -0.92388}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1575040534}
   m_Father: {fileID: 2012929562}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -315}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -215, y: 229.99995}
+  m_AnchoredPosition: {x: -215.66757, y: 215.66757}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1096700510
@@ -5656,8 +6184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 316142978}
-  amountText_value: {fileID: 1274984334}
+  _iconImage: {fileID: 316142978}
+  _amountText: {fileID: 1274984334}
 --- !u!1 &1097708145
 GameObject:
   m_ObjectHideFlags: 0
@@ -5862,13 +6390,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102615285}
+  - component: {fileID: 770000001}
   m_Layer: 5
   m_Name: ui_popup_bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1102615285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6753,11 +7282,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fe9a0e89aa36d8479713d17546c334a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.InventoryPanelView
-  scrollRect: {fileID: 128277495}
-  viewport: {fileID: 838320279}
-  content: {fileID: 1579001180}
-  itemTemplate: {fileID: 1355779915}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.InventoryPanelViewMono
+  _scrollRect: {fileID: 128277495}
+  _viewport: {fileID: 838320279}
+  _content: {fileID: 1579001180}
+  _itemTemplate: {fileID: 1355779915}
 --- !u!1 &1274984332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,13 +7474,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4aaf03232485b8943bc84ad9c28e1597, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.WheelView
-  wheelBaseImage: {fileID: 637393864}
-  indicatorImage: {fileID: 55961185}
-  spinVisualRawImage: {fileID: 0}
-  spinVisualMaterialTemplate: {fileID: 2100000, guid: e3e72db3ee5caf940873ffe8cfea72c0, type: 2}
-  wheelRotator: {fileID: 2012929562}
-  slots:
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.WheelViewMono
+  _wheelBaseImage: {fileID: 637393864}
+  _indicatorImage: {fileID: 55961185}
+  _spinVisualRawImage: {fileID: 0}
+  _spinVisualMaterialTemplate: {fileID: 2100000, guid: e3e72db3ee5caf940873ffe8cfea72c0, type: 2}
+  _wheelRotator: {fileID: 2012929562}
+  _slots:
   - {fileID: 252571005}
   - {fileID: 582014990}
   - {fileID: 845868715}
@@ -6960,6 +7489,8 @@ MonoBehaviour:
   - {fileID: 1730079380}
   - {fileID: 353526583}
   - {fileID: 1096700510}
+  _slotRadius: 305
+  _applyRadialLayoutOnAwake: 1
 --- !u!1 &1321926864
 GameObject:
   m_ObjectHideFlags: 0
@@ -7106,7 +7637,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1344864910}
-  - component: {fileID: 1344864911}
   - component: {fileID: 1344864912}
   m_Layer: 5
   m_Name: ui_screen_game
@@ -7136,6 +7666,7 @@ RectTransform:
   - {fileID: 1102615285}
   - {fileID: 1043718904}
   - {fileID: 561133807}
+  - {fileID: 770000011}
   m_Father: {fileID: 580221568}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7143,18 +7674,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1344864911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344864909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e830d5d9e3d3c341999f77d3e33fdbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameUI
 --- !u!114 &1344864912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7166,13 +7685,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24c8594430f71b944bab1ae1ab40d001, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.GameInputView
-  spinButton: {fileID: 121262392}
-  exitButton: {fileID: 624498047}
-  restartButton: {fileID: 141855864}
-  bombRestartButton: {fileID: 372937945}
-  bombReviveButton: {fileID: 278626155}
-  collectButton: {fileID: 878623657}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.GameInputViewMono
+  _spinButton: {fileID: 121262392}
+  _exitButton: {fileID: 624498047}
+  _restartButton: {fileID: 141855864}
+  _collectButton: {fileID: 878623657}
 --- !u!1 &1355779913
 GameObject:
   m_ObjectHideFlags: 0
@@ -7222,9 +7739,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdcf87f9b33f25d4081e02f1a4e10bea, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.InventoryItemView
-  rewardIcon: {fileID: 245796538}
-  amountText_value: {fileID: 1799759583}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.InventoryItemViewMono
+  _rewardIcon: {fileID: 245796538}
+  _amountText: {fileID: 1799759583}
 --- !u!1 &1374585236
 GameObject:
   m_ObjectHideFlags: 0
@@ -9360,17 +9877,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730079378}
-  m_LocalRotation: {x: 0, y: 0, z: 0.92387956, w: 0.38268343}
+  m_LocalRotation: {x: 0, y: 0, z: -0.92388, w: -0.38268}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1186302169}
   m_Father: {fileID: 2012929562}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -225}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: -200}
+  m_AnchoredPosition: {x: -215.66757, y: -215.66757}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730079380
@@ -9385,8 +9902,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98c51f5ddf7e634c9e78340aa0181c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WheelSlotView
-  iconImage: {fileID: 1434868880}
-  amountText_value: {fileID: 1811600556}
+  _iconImage: {fileID: 1434868880}
+  _amountText: {fileID: 1811600556}
 --- !u!1 &1734051066
 GameObject:
   m_ObjectHideFlags: 0
@@ -9708,7 +10225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -24}
+  m_AnchoredPosition: {x: 6.6679, y: -100}
   m_SizeDelta: {x: 200, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1755242996
@@ -10471,13 +10988,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed0c06f9928fd494b9b67041a219b485, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.ZoneInfoPanelView
-  safeZoneNumberText_value: {fileID: 1067627969}
-  superZoneNumberText_value: {fileID: 1934506744}
-  safeZonePanel: {fileID: 1110485027}
-  superZonePanel: {fileID: 732337929}
-  activeScale: 1.08
-  scaleDuration: 0.22
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.ZoneInfoPanelViewMono
+  _safeZoneNumberText: {fileID: 1067627969}
+  _superZoneNumberText: {fileID: 1934506744}
+  _safeZonePanel: {fileID: 1110485027}
+  _superZonePanel: {fileID: 732337929}
+  _activeScale: 1.08
+  _scaleDuration: 0.22
 --- !u!1 &1832040953
 GameObject:
   m_ObjectHideFlags: 0
@@ -11432,11 +11949,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b07a7b8946b469a4d832e571e8bc2894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinRewardItemView
-  canvasGroup: {fileID: 1979245847}
-  rewardIcon: {fileID: 1704519179}
-  rewardNameText_value: {fileID: 1905520701}
-  rewardAmountText_value: {fileID: 1710029688}
-  rewardLabelText_value: {fileID: 0}
+  _canvasGroup: {fileID: 1979245847}
+  _rewardIcon: {fileID: 1704519179}
+  _rewardNameText: {fileID: 1905520701}
+  _rewardAmountText: {fileID: 1710029688}
+  _rewardLabelText: {fileID: 0}
 --- !u!225 &1979245847
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -11499,9 +12016,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d28b18c0baa38b448a67315b5c7321c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.StartScreenView
-  root: {fileID: 2010303765}
-  startButton: {fileID: 299899924}
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.UI.StartScreenViewMono
+  _root: {fileID: 2010303765}
+  _startButton: {fileID: 299899924}
 --- !u!1 &2012929561
 GameObject:
   m_ObjectHideFlags: 0
@@ -11655,7 +12172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 106}
+  m_AnchoredPosition: {x: -20, y: 50.000015}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030138828
@@ -11712,8 +12229,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 2
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1

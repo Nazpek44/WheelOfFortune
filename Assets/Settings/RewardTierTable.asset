@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f90bd3dcf94c518cc6bd181000ff10, type: 3}
+  m_Name: RewardTierTable
+  m_EditorClassIdentifier: Assembly-CSharp::VertigoDemo.WheelOfFortune.Economy.RewardTierTable
+  _tiers:
+  - tierName: TIER 1
+    rewards:
+    - rewardId: small_chest
+      displayName: Small Chest
+      icon: {fileID: -4379012504692226635, guid: 4f63e45a010649c469dac7a5692b425a, type: 3}
+      amount: 1
+    - rewardId: pistol_points
+      displayName: Pistol Points
+      icon: {fileID: 95983631781727552, guid: 0911be29001e5024c85128c55735accc, type: 3}
+      amount: 25
+    - rewardId: bronze_chest
+      displayName: Bronze Chest
+      icon: {fileID: -8731708261444831326, guid: fafade5ab4ec6b14a9ded2509f2ee4f1, type: 3}
+      amount: 1
+    - rewardId: knife_points
+      displayName: Knife Points
+      icon: {fileID: 1742066445721694904, guid: 025b444ab4602c84395284909878c240, type: 3}
+      amount: 25
+    - rewardId: smg_points
+      displayName: SMG Points
+      icon: {fileID: 4302927716473386306, guid: 30e1db89e30f675458bc3d5ef0f7343d, type: 3}
+      amount: 25
+  - tierName: TIER 2
+    rewards:
+    - rewardId: standard_chest
+      displayName: Standard Chest
+      icon: {fileID: -4654250119808573944, guid: 1c5ffed324d788845b6a9c4a3d123234, type: 3}
+      amount: 1
+    - rewardId: rifle_points
+      displayName: Rifle Points
+      icon: {fileID: -1983989049330747494, guid: 448cebc4f9863994092182a8c08d9756, type: 3}
+      amount: 60
+    - rewardId: silver_chest
+      displayName: Silver Chest
+      icon: {fileID: -2733076883953118537, guid: cdee267e369174545a5e72982c76031f, type: 3}
+      amount: 1
+    - rewardId: shotgun_points
+      displayName: Shotgun Points
+      icon: {fileID: 2406621693580753259, guid: eeec508225f967647b1142810bc77737, type: 3}
+      amount: 60
+    - rewardId: armor_points
+      displayName: Armor Points
+      icon: {fileID: -64891307874697501, guid: c6a47823989d4ea418e2b6d5fc570ea0, type: 3}
+      amount: 60
+  - tierName: TIER 3
+    rewards:
+    - rewardId: gold_chest
+      displayName: Gold Chest
+      icon: {fileID: -4875417417886520195, guid: 020b79b1f2cc26c4a82d7038f165b8cf, type: 3}
+      amount: 1
+    - rewardId: sniper_points
+      displayName: Sniper Points
+      icon: {fileID: -2243273156050388040, guid: fad44af8762c03a45a9592d7b33258bc, type: 3}
+      amount: 150
+    - rewardId: big_chest
+      displayName: Big Chest
+      icon: {fileID: -4939823803957887640, guid: 7139e811b68beb043a20256b866aff07, type: 3}
+      amount: 1
+    - rewardId: vest_points
+      displayName: Vest Points
+      icon: {fileID: -3594919974255840254, guid: 6ff505aedfecf8343b65811450ba9c53, type: 3}
+      amount: 150
+    - rewardId: tier1_shotgun
+      displayName: Tier 1 Shotgun
+      icon: {fileID: -5281350351124101004, guid: 3ab30a785fa9a0b4db78673d0d4a3851, type: 3}
+      amount: 1
+  - tierName: TIER 4
+    rewards:
+    - rewardId: super_chest
+      displayName: Super Chest
+      icon: {fileID: -5371827261078721444, guid: 48bdaf9538abb69469caa7c5fa1a5414, type: 3}
+      amount: 1
+    - rewardId: tier2_rifle
+      displayName: Tier 2 Rifle
+      icon: {fileID: 795073897822961988, guid: af0314cfc55d45a49b6037564c66f370, type: 3}
+      amount: 1
+    - rewardId: tier3_sniper
+      displayName: Tier 3 Sniper
+      icon: {fileID: -3878008160132674235, guid: c204d32bb1479074ebfa57b9b8e30251, type: 3}
+      amount: 1
+    - rewardId: tier2_mle
+      displayName: Tier 2 MLE
+      icon: {fileID: 4658459910315597717, guid: 10f47f386dee98a4e8f14cc38a5bfe55, type: 3}
+      amount: 1
+    - rewardId: tier3_shotgun
+      displayName: Tier 3 Shotgun
+      icon: {fileID: -1995457932549516950, guid: 2a4c174c973bbf046bf9cc83b323dfc6, type: 3}
+      amount: 1
+    - rewardId: tier3_smg
+      displayName: Tier 3 SMG
+      icon: {fileID: -7069822948184546093, guid: 2066fd88090d0424380fb54e895a733c, type: 3}
+      amount: 1

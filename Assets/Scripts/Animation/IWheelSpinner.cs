@@ -7,7 +7,7 @@ namespace VertigoDemo.WheelOfFortune.Animation
     {
         bool IsSpinning { get; }
 
-        IEnumerator Spin(
+        IEnumerator SpinCoroutine(
             RectTransform rotator,
             int sliceCount,
             int resultIndex,

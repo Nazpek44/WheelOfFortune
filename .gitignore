@@ -1,3 +1,4 @@
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,13 +6,16 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
 
+# IDE
 .vs/
 .idea/
 .vscode/
-
 *.csproj
 *.sln
+*.slnx
 *.user
 *.pidb
 *.booproj
@@ -19,5 +23,13 @@
 *.pdb
 *.mdb
 
+# OS junk - these are what produced the committed _MACOSX/._* files
 .DS_Store
+.DS_Store?
+._*
+__MACOSX/
+_MACOSX/
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db

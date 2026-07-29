@@ -783,10 +783,10 @@ PlayerSettings:
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   enableDirectStorage: 0
-  cloudProjectId: 952ae292-b0c3-494d-b010-11d743ba2dd7
+  cloudProjectId: 2a80391b-d9c1-4817-87e1-2be7b8e9c428
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: WheelOfFortune
+  projectName: WheelGame
   organizationId: nazpek44
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
